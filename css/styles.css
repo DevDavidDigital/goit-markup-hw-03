@@ -1,0 +1,145 @@
+:root {
+    --iris: #4d5ae5;
+    --navy-blue: #2e2f42;
+    --white: #ffff;
+    --cloud: #f4f4fd;
+    --red: #ff0000;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--iris);
+}
+
+button:hover {
+    color: var(--red);
+}
+
+/* header section */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--red);
+}
+
+.text-logo-header {
+    color: var(--navy-blue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.text-logo-header span {
+    color: var(--iris);
+    font-family: raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.main-header-menu-link-studio {
+    color: var(--navy-blue);
+}
+
+.main-header-menu-link-portfolio {
+    color: var(--navy-blue);
+}
+
+.main-header-menu-link-contacts {
+    color: var(--navy-blue);
+}
+
+.main-header-cta-link-email {
+    color: var(--navy-blue);
+}
+
+.main-header-cta-link-phone {
+    color: var(--navy-blue);
+}
+
+/* hero banner section */
+
+.hero-banner-header {
+    background-color: var(--navy-blue);
+}
+
+.hero-banner-text {
+    color: var(--white);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+
+.hero-banner-header-cta {
+    color: var(--white);
+    background-color: var(--iris);
+}
+
+/* body section */
+body {
+    font-family: roboto;
+}
+
+h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* footer section */
+
+.main-footer {
+    background-color: var(--navy-blue);
+}
+
+.text-logo-footer {
+    color: var(--cloud);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.text-logo-footer span {
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--cloud);
+}

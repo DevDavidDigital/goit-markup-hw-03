@@ -200,6 +200,7 @@ ul {
     padding: 0px;
 }
 
+
 .list-content {
     display: flex;
     width: 264px;
@@ -225,6 +226,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
     width: 264px;
+    margin: 10px 0 25px 0;
 }
 
 .h3-dark {
@@ -235,6 +237,7 @@ ul {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin: 25px 0 0 0;
 }
 
 /* Section 2 */
@@ -295,7 +298,6 @@ ul {
 }
 
 .mark-card {
-    display: inline-flex;
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
@@ -304,12 +306,10 @@ ul {
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    margin-left: 156px;
-    margin-right: 24px;
+    height: fit-content;
 }
 
 .tom-card {
-    display: inline-flex;
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
@@ -318,11 +318,10 @@ ul {
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    margin-right: 24px;
+    height: fit-content;
 }
 
 .camila-card {
-    display: inline-flex;
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
@@ -331,11 +330,10 @@ ul {
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    margin-right: 24px;
+    height: fit-content;
 }
 
 .daniel-card {
-    display: inline-flex;
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
@@ -344,6 +342,7 @@ ul {
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    height: fit-content;
 }
 
 .h3-dark-card{
